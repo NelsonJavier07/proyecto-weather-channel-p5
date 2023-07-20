@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/CSS">
+    <title>Proyecto WEATHER CHANNEL</title>
+</head>
+<body>
+    <div class="encabezado">
+        <h1>WEATHER CHANNEL</h1>
+        <input type="text" placeholder="Ingresa una ciudad" >
+        <button>ENVIAR</button>
+    </div>
+    <div class="container">
+        <ul class="ciudades">
+            <li>
+                <span id="ciudad"></span>
+                <span id="temperatura"></span><span id="grados"></span><br>
+                <img id="wicon" src="" alt="Icono del tiempo"><br>
+                <span id="descripcion"></span><br>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
